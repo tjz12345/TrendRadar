@@ -54,6 +54,9 @@ schedule:
 # ===============================================================
 # name 可以定义任意名称，只具有显示作用，即使项目运行了几天后，忽然改掉 name 也不会影响代码的正常运行
 platforms:
+  sources:
+  - id: "sputniknewscn"
+    name: "卫星通讯社"
   
   # === 综合新闻媒体类 ===
   #- id: "toutiao"
@@ -66,8 +69,6 @@ platforms:
   #  name: "凤凰网"
   #- id: "cankaoxiaoxi"
   #  name: "参考消息"
-  - id: "sputniknewscn"
-    name: "卫星通讯社"
   #- id: "zaobao"
   #  name: "联合早报"
   #- id: "mktnews"
@@ -133,7 +134,7 @@ platforms:
   #- id: "chongbuluo"
   #  name: "虫部落"
 
-   NewsNow的信息源在11月20日更新：
+   #NewsNow的信息源在11月20日更新：
 
     #id: "tencent-hot"
     #name: "腾讯新闻 综合早报"
