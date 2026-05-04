@@ -85,10 +85,10 @@ platforms:
     name: "华尔街见闻 最新"
   - id: "cls-hot"
     name: "财联社热门"
-  #- id: "gelonghui"
-  #  name: "格隆汇"
-  #- id: "xueqiu"
-  #  name: "雪球"
+  - id: "gelonghui"
+    name: "格隆汇"
+  - id: "xueqiu"
+    name: "雪球"
   - id: "jin10"
     name: "金十数据"
   - id: "fastbull"
@@ -139,8 +139,8 @@ platforms:
     #id: "tencent-hot"
     #name: "腾讯新闻 综合早报"
     
-   # id: "cls-telegraph"
-   # name: "财联社 电报"
+    id: "cls-telegraph"
+    name: "财联社 电报"
     
   - id: "cls-depth"
     name: "财联社 深度"
@@ -224,10 +224,10 @@ rss:
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
     
-    #- id: "yahoo-finance"
-    #  name: "雅虎财经"
-    #  url: "https://finance.yahoo.com/news/rssindex"
-    #  enabled: false                  # 禁用
+    - id: "yahoo-finance"
+      name: "雅虎财经"
+      url: "https://finance.yahoo.com/news/rssindex"
+      enabled: false                  # 禁用
 
     - id: "microsoft-ai"
       name: "微软研究院ai头条"
@@ -248,6 +248,18 @@ rss:
     - id: "LINUX-do"
       name: "LINUX do最热"
       url: "https://linux.do/top.rss"
+
+    - id: "fortunechina"
+      name: "fortunachina"
+      url: "https://plink.anyfeeder.com/fortunechina/shangye"
+
+    - id: "medium asia"
+      name: "medium asia"
+      url: "https://plink.anyfeeder.com/aljazeera/news"
+
+    - id: "economic"
+      name: "economic"
+      url: "http://feedmaker.kindle4rss.com/feeds/business-finance.economist.com.xml"
       
     # 自定义源示例
     # - id: "custom-feed"
